@@ -1,0 +1,15 @@
+app_ports:
+  app1:
+    test:
+      http_port: 8080
+      mgt_port: 8081
+    prod:
+      http_port: 8080
+      mgt_port: 8081
+  app2:
+    test:
+      http_port: 9080
+      mgt_port: 9081
+    prod:
+      http_port: 9080
+      mgt_port: 9081
